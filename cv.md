@@ -24,7 +24,7 @@ Additionally, I can adapt to any conditions if it will high up the productivity 
      * bootstrap 4
      * C++: OSTIS scp-algoritms
      * SQL : postgres
- * good experience of searching information
+ * Good experience of searching information
 
 ## Code examples
 
@@ -41,7 +41,7 @@ const search = (searchTerm) => {
 
 ## Experience
 
-* Selfstuding:
+* Self-Studying:
     * [SoloLearn profile](https://www.sololearn.com/Profile/1591854)
     * [Codewars profile](https://www.codewars.com/users/SadTigger)
     * [Udemy profile](https://www.udemy.com/user/pavelzhechko/) 
@@ -61,5 +61,5 @@ const search = (searchTerm) => {
 ## English
 
 - `2020` Epam's Examinator Application test: A2+.
-- `2018-2019` RubyRoidLabs winter course includes lectures in english.
-- `2012-2013` 2 month training with foreign mentors by Medacta Inc. in Minsk (use 3d graphic software for build surgery blocks and 3d bone models), briefings and conversation with mentors by english on skype.
+- `2018-2019` The RubyRoidLabs winter course includes lectures in English.
+- `2012-2013` Two month training with foreign mentors by Medacta Inc. in Minsk (use 3d graphic software for builds surgery blocks and 3d bone models), briefings and conversation with mentors by English on Skype.

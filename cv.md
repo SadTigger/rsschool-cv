@@ -1,8 +1,5 @@
 # Pavel Zhachko
 
-![Profile photo](https://media-exp1.licdn.com/dms/image/C4E03AQE1H0yKageA6A/profile-displayphoto-shrink_200_200/0?e=1605744000&v=beta&t=_MTQEu-o-rvdSsnv4DSFejZcWrY8RG-o9M595yd-tL4)
-##### Trainee/Junior web developer.
-
 ## Contact Info
 rammiel@yandex.ru
 [LinkedIn](https://linkedin.com/in/pavel-zhachko-06056b6b)

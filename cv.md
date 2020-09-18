@@ -55,14 +55,14 @@ const search = (searchTerm) => {
     * [Rubyzza-camp/summer-2019](https://github.com/SadTigger/summer-2019)
 
 ## Education
-
-- `2010-2013` _Belarusian State University of Informatics and Radioelectronics, Minsk_ (incomplete higher education)
-- `2016-2019` _SoloLearn courses_
-- `2019-2020` _Udemy courses_
+- `2020-present` _Rolling Scopes School_
+- `2019-present` _Udemy courses_
+- `2016-present` _SoloLearn courses_
 - `2016-2019` _RubyRoidLabs & Rubyzza-camp courses_
+- `2010-2013` _Belarusian State University of Informatics and Radioelectronics, Minsk_ (incomplete higher education)
 
 ## English
 
-- `2012-2013` I have few experience in meeting with foreign coleagues: 2 month training by Medacta Inc. in Minsk (use 3d graphic sowtware for build surgery blocks and 3d bone models), briefings and conversation with mentors by english on skype.
-- `2018-2019` RubyRoidLabs winter course includes lectures in english.
 - `2020` _Epam's Examinator Application test_ A2+.
+- `2018-2019` RubyRoidLabs winter course includes lectures in english.
+- `2012-2013` 2 month training with foreign mentors by Medacta Inc. in Minsk (use 3d graphic sowtware for build surgery blocks and 3d bone models), briefings and conversation with mentors by english on skype.

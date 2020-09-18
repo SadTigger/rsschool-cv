@@ -7,12 +7,12 @@ rammiel@yandex.ru
 ## Summary
 
 I am self-motivated and interested in searching information about new technologies and features. 
-Additionaly I can adapt to any conditions if it will high up productivity to work process.
+Additionally, I can adapt to any conditions if it will high up the productivity of the work process.
 ### My goals:
 - [x] Improve my skills.
 - [ ] Get new experience.
-- [ ] Bring new ideas to web development.
-- [ ] Become high qualified full-stack specialist.
+- [ ] Bring new ideas for web development.
+- [ ] Become a highly qualified full-stack specialist.
 
 ## Skills
 
@@ -62,4 +62,4 @@ const search = (searchTerm) => {
 
 - `2020` Epam's Examinator Application test: A2+.
 - `2018-2019` RubyRoidLabs winter course includes lectures in english.
-- `2012-2013` 2 month training with foreign mentors by Medacta Inc. in Minsk (use 3d graphic sowtware for build surgery blocks and 3d bone models), briefings and conversation with mentors by english on skype.
+- `2012-2013` 2 month training with foreign mentors by Medacta Inc. in Minsk (use 3d graphic software for build surgery blocks and 3d bone models), briefings and conversation with mentors by english on skype.

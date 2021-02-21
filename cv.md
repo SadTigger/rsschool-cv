@@ -1,7 +1,7 @@
 # Pavel Zhachko
 
 ## Contact Info
-[Mail]rammiel@yandex.ru
+rammiel@yandex.ru  
 [LinkedIn](https://linkedin.com/in/pavel-zhachko-06056b6b)
 
 ## Summary
@@ -34,11 +34,12 @@ Additionally, I can adapt to any conditions if they will increase the productivi
 
 // partition the items array so that all values for which pred returns true are
 // at the end, returning the index of the first true value
-function partitionOn(pred, items) {
-  let trueArr = items.filter(elem => pred(elem));
-  let falseArr = items.filter(elem => !pred(elem));
+const partitionOn = (pred, items) => {
+  const trueArr = items.filter(elem => pred(elem));
+  const falseArr = items.filter(elem => !pred(elem));
   items.splice(0);
   items.push(...falseArr.concat(trueArr));
+    
   return falseArr.length;
 }
 ```

@@ -12,30 +12,34 @@ Additionally, I can adapt to any conditions if they will increase the productivi
 - [x] Improve my skills.
 - [ ] Acquire new experience.
 - [ ] Bring new ideas for web development.
-- [ ] Become a highly qualified full-stack specialist.
+- [ ] Become a highly qualified specialist.
 
 ## Skills
 
  * Basic knowledge of:
-     * Ruby 2.5, Ruby on Rails 4
-     * Python 3
-     * HTML(6)/CSS(3)
-     * js (ES6)
+     * javascript (ES6)
+     * ruby 2.5, Ruby on Rails 4
+     * python 3
+     * html(5), css(3)
      * bootstrap 4
-     * C++: OSTIS scp-algoritms
+     * c++: OSTIS scp-algoritms
      * SQL : postgres
+     * git
  * Extensive experience with conducting internet research
 
 ## Code examples
 
 ```javascript
-// https://www.codewars.com/kata/52cd53948d673a6e66000576
+// https://www.codewars.com/kata/525a037c82bf42b9f800029b
 
-const TITLES = ['The Big Bang Theory','How I Met Your Mother','Dexter','Breaking Bad','Doctor Who','The Hobbit','Pacific Rim','Pulp Fiction','The Avengers','Shining'];
-
-const search = (searchTerm) => {
-  let search = new RegExp(searchTerm, 'i');
-  return TITLES.filter((title) => {return search.test(title)});
+// partition the items array so that all values for which pred returns true are
+// at the end, returning the index of the first true value
+function partitionOn(pred, items) {
+  let trueArr = items.filter(elem => pred(elem));
+  let falseArr = items.filter(elem => !pred(elem));
+  items.splice(0);
+  items.push(...falseArr.concat(trueArr));
+  return falseArr.length;
 }
 ```
 
@@ -62,4 +66,4 @@ const search = (searchTerm) => {
 
 - `2020` Epam's Examinator Application test: A2+.
 - `2018-2019` The RubyRoidLabs winter course includes lectures in English.
-- `2012-2013` Two month training with foreign mentors by Medacta Inc. in Minsk (using 3d graphic software to build surgery blocks and 3d bone models), briefings and conversation with mentors in English via Skype.
+- `2012-2013` Two month live training with foreign mentors by Medacta Inc. in Minsk (using 3d graphic software to build surgery blocks and 3d bone models), briefings and conversation with mentors in English via Skype.

@@ -1,7 +1,7 @@
 # Pavel Zhachko
 
 ## Contact Info
-rammiel@yandex.ru
+[Mail]rammiel@yandex.ru
 [LinkedIn](https://linkedin.com/in/pavel-zhachko-06056b6b)
 
 ## Summary
@@ -20,7 +20,7 @@ Additionally, I can adapt to any conditions if they will increase the productivi
      * javascript (ES6)
      * ruby 2.5, Ruby on Rails 4
      * python 3
-     * html(5), css(3)
+     * html5, css3
      * bootstrap 4
      * c++: OSTIS scp-algoritms
      * SQL : postgres
@@ -48,7 +48,6 @@ function partitionOn(pred, items) {
 * Self-Studying:
     * [SoloLearn profile](https://www.sololearn.com/Profile/1591854)
     * [Codewars profile](https://www.codewars.com/users/SadTigger)
-    * [Udemy profile](https://www.udemy.com/user/pavelzhechko/) 
 * Rubyzza-camp & rubyroidlabs:
     * [rubyroidlabs/bsuir-courses-2016](https://github.com/SadTigger/bsuir-courses) 
     * [Rubyzza-camp/summer-2018](https://github.com/SadTigger/summer-2018)

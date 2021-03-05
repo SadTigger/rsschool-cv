@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  max-width: 1140px;
   margin: auto;
 }
 
@@ -28,10 +27,13 @@ h2 {
   line-height: 1.25;
 }
 
-address, section {
+address {
+  font-style: normal;
+}
+
+section {
   padding: 20px;
   font-weight: 600;
-  font-style: normal;
 }
 
 .header {
@@ -51,10 +53,10 @@ address, section {
 
 .profile_bio {
   display: block;
-  border: 1px solid white;
 }
 
-#name, #job_title {
+#name,
+#job_title {
   padding-top: 10px;
   padding-bottom: 10px;
   display: inline-block;
@@ -63,6 +65,7 @@ address, section {
 }
 
 .page {
+  max-width: 1140px;
   background-color: #303133;
   margin-top: 10px;
   margin-bottom: 10px;

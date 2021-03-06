@@ -1,9 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: auto;
+  margin: 0;
 }
 
+html,
 body {
+  margin: 0 auto;
+  max-width: 1440px;
   background-color: #949699;
   color: #c0c0c0;
 }
@@ -15,7 +18,7 @@ a:link {
 }
 
 a:visited {
-  color: pink;
+  color: #101621;
   background-color: transparent;
   text-decoration: none;
 }
@@ -36,7 +39,7 @@ section {
   font-weight: 600;
 }
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,11 +67,15 @@ section {
   width: 15em;
 }
 
-.page {
+.contacts {
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  margin: 10px auto;
   max-width: 1140px;
   background-color: #303133;
-  margin-top: 10px;
-  margin-bottom: 10px;
   border: 1px solid;
   box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 75%);
   position: relative;
@@ -77,4 +84,21 @@ section {
 
 li {
   padding-top: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer a {
+  font-size: 30px;
 }

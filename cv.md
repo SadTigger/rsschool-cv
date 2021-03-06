@@ -21,12 +21,12 @@ Additionally, I can adapt to any conditions if they will increase the productivi
 
 - Basic knowledge of:
   - javascript (ES6)
-  - ruby 2.5, Ruby on Rails 4
-  - python 3
   - html5, css3
   - bootstrap 4
   - c++: OSTIS scp-algorithms
   - SQL : postgres
+  - ruby 2.5, Ruby on Rails 4
+  - python 3
   - git
 - Extensive experience with conducting internet research
 
@@ -46,6 +46,11 @@ const partitionOn = (pred, items) => {
   return falseArr.length;
 };
 ```
+
+- Last projects:
+  - [Web Developer Blog](https://sadtigger-webdevblog.netlify.app/)
+  - [WildLife task](https://sadtigger-wildlife.netlify.app/)
+  - [Codewars solutions](https://github.com/SadTigger/codewars)
 
 ## Experience
 

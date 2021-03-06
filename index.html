@@ -5,14 +5,14 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/solarized-dark.css">
-        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"/>
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
         <title>CV</title>
     </head>
     <body>
-        <div class="page">
-            <div class="header">
+        <main>
+            <header>
                 <div class="profile_bio">
                     <div id="name">
                         <h1>Pavel Zhachko</h1>
@@ -25,14 +25,16 @@
                 <div id="profile_photo">
                     <img src="images/profile.jpg" alt="profile photo">
                 </div>
-            </div>
+            </header>
             <section>
                 <h2>Contact Info</h2>
                 <address>
                     <hr />
                     <br/>
-                    Email: <a href="mailto:rammiel@yandex.ru">rammiel@yandex.ru</a><br/>
-                    LinkedIn: <a href="https://linkedin.com/in/pavel-zhachko-06056b6b">Pavel Zhachko</a>
+                    <ul class="contacts">
+                        <li>Email: <a href="mailto:rammiel@yandex.ru">rammiel@yandex.ru</a><br/></li>
+                        <li>LinkedIn: <a href="https://linkedin.com/in/pavel-zhachko-06056b6b">Pavel Zhachko</a></li>
+                    </ul>
                 </address>
             </section>
             <section>
@@ -55,12 +57,12 @@
                             Basic knowledge of:
                             <ul>
                                 <li>javascript (ES6)</li>
-                                <li>ruby 2.5, Ruby on Rails 4</li>
-                                <li>python 3</li>
                                 <li>html5, css3</li>
                                 <li>bootstrap 4</li>
                                 <li>c++: OSTIS scp-algorithms</li>
                                 <li>SQL : postgres</li>
+                                <li>ruby 2.5, Ruby on Rails 4</li>
+                                <li>python 3</li>
                                 <li>git</li>
                             </ul>
                         </li>
@@ -91,6 +93,13 @@
                     </code>
                 </pre>
             </div>
+
+            <h3>Last projects: </h3>
+            <ul>
+                <li><a href="https://sadtigger-webdevblog.netlify.app/">Web Developer Blog</a></li>
+                <li><a href="https://sadtigger-wildlife.netlify.app/">WildLife task</a></li>
+                <li><a href="https://github.com/SadTigger/codewars">Codewars solutions</a></li>
+            </ul>
             </section>
     
             <section>
@@ -99,15 +108,14 @@
                 <br/>
                 <div>
                     <ul>
-                        <li>
-                            Self-Studying:
+                        <li> Self-Studying:
                             <ul>
                                 <li><a href="https://www.sololearn.com/Profile/1591854">SoloLearn profile</a></li>
                                 <li><a href="https://www.codewars.com/users/SadTigger">Codewars profile</a></li>
                                 <li><a href="https://github.com/SadTigger/">GitHub profile</a></li>
                             </ul>
                         </li>
-                        <li>Rubyzza-camp & rubyroidlabs:
+                        <li> Rubyzza-camp & rubyroidlabs:
                             <ul>
                                 <li><a href="https://github.com/SadTigger/bsuir-courses">rubyroidlabs-2016</a></li>
                                 <li><a href="https://github.com/SadTigger/summer-2018">Rubyzza-camp/summer-2018</a></li>
@@ -147,8 +155,14 @@
                     </ul>
                 </div>
             </section>
-            <ul>
-            </ul>
-        </div>
+            <hr>
+            <footer>
+                <a href="https://rs.school/js/"><img src="images/icons/rs_school.svg" alt="rs school logo"></a>
+                <div>
+                    © <time>2021</time>
+                </div>
+                <address class="author">Pavel Zhachko</address>
+            </footer>
+        </main>
     </body>
 </html>

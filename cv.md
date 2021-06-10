@@ -20,7 +20,7 @@ Additionally, I can adapt to any conditions if they will increase the productivi
 ## Skills
 
 - Basic knowledge of:
-  - javascript (ES6)
+  - javascript (ES6), typescript
   - html5, css3
   - bootstrap 4
   - c++: OSTIS scp-algorithms
@@ -50,6 +50,10 @@ const partitionOn = (pred, items) => {
 - Last projects:
   - [Web Developer Blog](https://sadtigger-webdevblog.netlify.app/)
   - [WildLife task](https://sadtigger-wildlife.netlify.app/)
+  - [Virtual Piano](https://sadtigger-virual-piano.netlify.app/)
+  - [Photo Filter](https://rolling-scopes-school.github.io/sadtigger-JSFE2021Q1/photo-filter/)
+  - [Online Zoo v5](https://rolling-scopes-school.github.io/sadtigger-JSFE2021Q1/online-zoo/pages/Landing/index.html)
+  - [Match-match-game](https://sadtigger-match-match-game.netlify.app/Match-match-game)
   - [Codewars solutions](https://github.com/SadTigger/codewars)
 
 ## Experience

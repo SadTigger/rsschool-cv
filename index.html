@@ -1,0 +1,172 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/solarized-dark.css">
+        <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"/>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <title>CV</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="profile_bio">
+                    <div id="name">
+                        <h1>Pavel Zhachko</h1>
+        
+                    </div>
+                    <div class="job_title">
+                        junior web developer
+                    </div>
+                </div>
+                <div id="profile_photo">
+                    <img src="images/profile.jpg" alt="profile photo">
+                </div>
+            </header>
+            <section>
+                <h2>Contact Info</h2>
+                <address>
+                    <hr />
+                    <br/>
+                    <ul class="contacts">
+                        <li>Email: <a href="mailto:rammiel@yandex.ru">rammiel@yandex.ru</a><br/></li>
+                        <li>LinkedIn: <a href="https://linkedin.com/in/pavel-zhachko-06056b6b">Pavel Zhachko</a></li>
+                    </ul>
+                </address>
+            </section>
+            <section>
+                <h2>Summary</h2>
+                <hr />
+                <br/>
+                <div>
+                    I am self-motivated and interested in new technologies and features.<br/>
+                    Additionally, I can adapt to any conditions if they will increase the productivity of the work process.
+                </div>
+            </section>
+    
+            <section>
+                <h2>Skills</h2>
+                <hr/>
+                <br/>
+                <div>
+                    <ul>
+                        <li>
+                            Basic knowledge of:
+                            <ul>
+                                <li>javascript (ES6), typescript</li>
+                                <li>html5, css3</li>
+                                <li>bootstrap 4</li>
+                                <li>c++: OSTIS scp-algorithms</li>
+                                <li>SQL : postgres</li>
+                                <li>ruby 2.5, Ruby on Rails 4</li>
+                                <li>python 3</li>
+                                <li>git</li>
+                            </ul>
+                        </li>
+                        <li>Extensive experience with conducting internet research</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section>
+                <h2>Code examples</h2>
+                <hr/>
+                <br/>
+            <div>
+                <pre>
+                    <code class="lang-js">
+    // https://www.codewars.com/kata/525a037c82bf42b9f800029b
+    
+    // partition the items array so that all values for which pred returns true are
+    // at the end, returning the index of the first true value
+    const partitionOn = (pred, items) => {
+      const trueArr = items.filter(elem => pred(elem));
+      const falseArr = items.filter(elem => !pred(elem));
+      items.splice(0);
+      items.push(...falseArr.concat(trueArr));
+      
+      return falseArr.length;
+    }
+                    </code>
+                </pre>
+            </div>
+
+            <h3>Last projects: </h3>
+            <ul>
+                <li><a href="https://sadtigger-webdevblog.netlify.app/">Web Developer Blog</a></li>
+                <li><a href="https://sadtigger-wildlife.netlify.app/">WildLife task</a></li>
+                <li><a href="https://sadtigger-virual-piano.netlify.app/">Virtual Piano</a></li>
+                <li><a href="https://rolling-scopes-school.github.io/sadtigger-JSFE2021Q1/photo-filter/">Photo Filter</a></li>
+                <li><a href="https://rolling-scopes-school.github.io/sadtigger-JSFE2021Q1/online-zoo/pages/Landing/index.html">Online Zoo v5</a></li>
+                <li><a href="https://sadtigger-match-match-game.netlify.app/">Match-match-game</a></li>
+                <li><a href="https://github.com/SadTigger/codewars">Codewars solutions</a></li>
+            </ul>
+            </section>
+    
+            <section>
+                <h2>Experience</h2>
+                <hr/>
+                <br/>
+                <div>
+                    <ul>
+                        <li> Self-Studying:
+                            <ul>
+                                <li><a href="https://www.sololearn.com/Profile/1591854">SoloLearn profile</a></li>
+                                <li><a href="https://www.codewars.com/users/SadTigger">Codewars profile</a></li>
+                                <li><a href="https://github.com/SadTigger/">GitHub profile</a></li>
+                            </ul>
+                        </li>
+                        <li> Rubyzza-camp & rubyroidlabs:
+                            <ul>
+                                <li><a href="https://github.com/SadTigger/bsuir-courses">rubyroidlabs-2016</a></li>
+                                <li><a href="https://github.com/SadTigger/summer-2018">Rubyzza-camp/summer-2018</a></li>
+                                <li><a href="https://github.com/SadTigger/winter-2018">Rubyzza-camp/winter-2018</a></li>
+                                <li><a href="https://github.com/SadTigger/summer-2019">Rubyzza-camp/summer-2019</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section>
+                <h2>Education</h2>
+                <hr/>
+                <br/>
+                <div>
+                    <ul>
+                        <li>2020-present Rolling Scopes School</li>
+                        <li>2019-present Udemy courses</li>
+                        <li>2016-present SoloLearn courses</li>
+                        <li>2016-2019 RubyRoidLabs & Rubyzza-camp courses</li>
+                        <li>2010-2013 Belarusian State University of Informatics and Radioelectronics, Minsk (incomplete higher education)</li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section>
+                <h2>English</h2>
+                <hr/>
+                <br/>
+                <div>
+                    <ul>
+                        <li>2020 Epam's Examinator Application test: A2+.</li>
+                        <li>2018-2019 The RubyRoidLabs winter course includes lectures in English.</li>
+                        <li>2012-2013 Two month training with foreign mentors by Medacta Inc. in Minsk (using 3d graphic software to build surgery blocks and 3d bone models),
+                            briefings and conversation with mentors in English via Skype.</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <footer>
+                <a href="https://rs.school/js/"><img src="images/icons/rs_school.svg" alt="rs school logo"></a>
+                <div>
+                    © <time>2021</time>
+                </div>
+                <address class="author">Pavel Zhachko</address>
+            </footer>
+        </main>
+    </body>
+</html>

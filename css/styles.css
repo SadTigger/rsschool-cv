@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #949699;
+  color: #c0c0c0;
+}
+
+a:link {
+  color: #1793d1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #101621;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h2 {
+  color: #d15116;
+  margin-top: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+address {
+  font-style: normal;
+}
+
+section {
+  padding: 20px;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+#profile {
+  display: inline-block;
+  width: 15em;
+}
+
+.profile_bio {
+  display: block;
+}
+
+#name,
+#job_title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  padding: 10 auto;
+  width: 15em;
+}
+
+.contacts {
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  margin: 10px auto;
+  max-width: 1140px;
+  background-color: #303133;
+  border: 1px solid;
+  box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 75%);
+  position: relative;
+  padding: 32px;
+}
+
+li {
+  padding-top: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  height: 30px;
+}
+
+footer a {
+  font-size: 30px;
+}
